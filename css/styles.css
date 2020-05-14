@@ -1,0 +1,163 @@
+body{
+    font-family: "Montserrat";
+
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Ubuntu";
+}
+
+/* Download Buttons */
+
+.download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Feature */
+
+#features{
+    padding : 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    
+}
+
+/* Testimonial section */
+
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-buttons{
+    width: 100%;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+/* Call to action */
+
+#cta{
+    text-align: center;
+    font-family: "Montserrat";
+    color: white;
+    background-color: #ff4c68;
+    padding: 3% 7%;
+}
+.footer-container{
+    padding: 3% 15%;
+}
+
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.footer-icon{
+    width: 7%;
+    color: black;
+}
+.footer-icon:hover{
+    color: grey;
+}
+.footer-note{
+    padding: 3%;
+}
+
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    .footer-icon{
+        width: 15%;
+    }
+}
